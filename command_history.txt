@@ -1,0 +1,18 @@
+    1  clear
+    2  hisrotyr
+    3  history
+    4  ls
+    5  cd wanderlust/
+    6  history
+    7  clea
+    8  clear
+    9  history
+   10  all commands
+   11  all command
+   12  cleaar
+   13  compgen -c
+   14  history
+   15  cat ~/.bash_history
+   16  tail -n 10 ~/.bash_history
+   17  history | grep "search_term"
+   18  history > command_history.txt
