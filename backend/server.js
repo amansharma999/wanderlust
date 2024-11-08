@@ -3,7 +3,7 @@ import connectDB from './config/db.js';
 import { PORT } from './config/utils.js';
 import { connectToRedis } from './services/redis.js';
 
-const port = PORT || 8080;
+const port = PORT || 5050;
 
 // Connect to redis
 connectToRedis();
