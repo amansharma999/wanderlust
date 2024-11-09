@@ -26,7 +26,7 @@ WORKDIR /app
 COPY --from=build /app ./
 
 # Copy .env.sample to .env.local
-COPY .env.sample .env.local
+COPY .env.sample .env.docker
 
 # Expose the port your app runs on
 EXPOSE 5173
